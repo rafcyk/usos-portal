@@ -20,6 +20,7 @@ p{
 
 .log-in-page-wrapper{
   background-image: url('./images/main-bg.png');
+  position: relative;
 }
 
 .log-in-page{
@@ -42,6 +43,10 @@ p{
   padding-right:100px;
   border-bottom: 2px solid #00E0E0;
   background-color: #fff;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index: 99999!important;
 }
 
 .portal-name{
@@ -52,10 +57,20 @@ p{
 .log{
   font-size:2rem;
   border:none;
-  border-top:2px solid #181F1F;
+  border-right:2px solid #181F1F;
   border-bottom:2px solid #181F1F;
   padding:15px 25px;
   background-color: #fff;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+.log-in:hover{
+  box-shadow: 10px 10px 5px #181F1F;
+  margin-bottom:5px
 }
 
 .main-waves{
@@ -66,7 +81,7 @@ p{
 }
 
 .log-in-content{
-  margin-top:200px;
+  padding-top:300px;
   display:flex;
   justify-content: space-around;
   color:#fff;
@@ -78,4 +93,8 @@ p{
 
 .log-in-content .hello-text{
   font-size: 4rem;
+}
+
+.main{
+  margin-top:10vh;
 }
