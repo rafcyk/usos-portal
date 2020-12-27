@@ -1,7 +1,11 @@
 import React from 'react';
 import Waves from './images/wave.svg';
 
+
+
 const Main = () => {
+
+
     return (
             <div className ='log-in-page-wrapper'>
                 <div className='log-in-page'>

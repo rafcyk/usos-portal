@@ -21,7 +21,7 @@ class App extends React.Component {
           <Route path='/home' exact>
             <Home/>
           </Route>
-          <Route path='/user'>
+          <Route path='/user' exact>
             <User/>
           </Route>
         </Switch>

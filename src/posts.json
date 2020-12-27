@@ -1,0 +1,45 @@
+[
+       {    
+           "post": {
+                "post_id":0,
+                "author": "Kamil Kamil",
+                "content": "dsadasdas dsaasdasd"
+            },
+            "comments": [
+                {
+                    "comment_author": "kamil sad",
+                    "comment_text": "dasdsad"
+                },
+                {
+                    "comment_author": "kamil sad",
+                    "comment_text": "dasdsad"
+                }
+               ]
+        },
+        {    
+            "post": {
+                 "post_id":0,
+                 "author": "Kamil Kamil",
+                 "content": "dsadasdas dsaasdasd"
+             },
+             "comments": [
+                {
+                    "comment_author": "kamil sad",
+                    "comment_text": "dasdsad"
+                }
+               ]
+         },
+         {    
+            "post": {
+                 "post_id":0,
+                 "author": "Kamil Kamil",
+                 "content": "dsadasdas dsaasdasd"
+             },
+             "comments": [
+                 {
+                     "comment_author": "kamil sad",
+                     "comment_text": "dasdsad"
+                 }
+                ]
+         }
+]

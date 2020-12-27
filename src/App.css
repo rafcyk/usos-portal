@@ -96,5 +96,50 @@ p{
 }
 
 .main{
-  margin-top:10vh;
+  margin-top:15vh;
+}
+
+.post-publish{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-content{
+  width:30%;
+  height:150px;
+  border: 2px solid #ACACAC;
+  /* border-radius: 10px; */
+  margin-bottom: 20px;
+  padding:10px;
+  resize: none; 
+  border:none;
+  border-right:2px solid #181F1F;
+  border-bottom:2px solid #181F1F;
+
+}
+
+.publish{
+  padding: 15px 25px;
+  border:none;
+  border-right:2px solid #181F1F;
+  border-bottom:2px solid #181F1F;
+  background-color: #fff;
+  transition: .2s;
+  margin-bottom: 20px;
+}
+
+.publish:hover{
+  box-shadow: 10px 10px 5px #181F1F;
+  margin-bottom:5px
+}
+
+.post{
+  width:30%;
+  margin:0 auto;
+  padding:10px;
+  border:2px solid black;
+  margin-bottom:15px;
 }
