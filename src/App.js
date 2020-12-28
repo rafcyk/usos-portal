@@ -2,30 +2,27 @@ import React from 'react';
 import './App.css';
 import Main from './Main';
 import Home from './Home';
-import User from './User';
+import Post from './pages/Post';
 
 import Nav from './components/Nav';
 
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {Switch, Route} from 'react-router-dom';
 
 class App extends React.Component {
 
   render(){
     return (
-      <Router>
-        <Nav/>
-        <Switch>
-          <Route path='/' exact>
-            <Main/>
-          </Route>
-          <Route path='/home' exact>
-            <Home/>
-          </Route>
-          <Route path='/user' exact>
-            <User/>
-          </Route>
-        </Switch>
-      </Router>
+      <>
+      <Nav/>
+
+      <Switch>
+        <Route path='/' exact component={Main}/>
+        <Route path='/home' exact component={Home}/>
+        <Route path='/home/:id' exact>
+                        <Post/>
+                    </Route>
+      </Switch>
+      </>
     );
   }
 

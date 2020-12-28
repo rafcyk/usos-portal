@@ -2,8 +2,8 @@
        {    
            "post": {
                 "post_id":0,
-                "author": "Kamil Kamil",
-                "content": "dsadasdas dsaasdasd"
+                "author": "Kacper Buczkowski",
+                "content": "Czy ktoś może wie kiedy w październiku są godziny rektorskie?"
             },
             "comments": [
                 {
@@ -18,26 +18,26 @@
         },
         {    
             "post": {
-                 "post_id":0,
-                 "author": "Kamil Kamil",
-                 "content": "dsadasdas dsaasdasd"
+                 "post_id":1,
+                 "author": "Łukasz Duszak",
+                 "content": "Gdzie na naszej uczelni można zapisać się do programu erasmus?"
              },
              "comments": [
                 {
-                    "comment_author": "kamil sad",
+                    "comment_author": "Łukasz Darmochwał",
                     "comment_text": "dasdsad"
                 }
                ]
          },
          {    
             "post": {
-                 "post_id":0,
-                 "author": "Kamil Kamil",
-                 "content": "dsadasdas dsaasdasd"
+                 "post_id":2,
+                 "author": "Łukasz Darmochwał",
+                 "content": "Do kiedy trwa semestr letni 19/20?"
              },
              "comments": [
                  {
-                     "comment_author": "kamil sad",
+                     "comment_author": "Łukasz Duszak",
                      "comment_text": "dasdsad"
                  }
                 ]

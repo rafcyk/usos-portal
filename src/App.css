@@ -9,6 +9,10 @@ html{
   font-size: 10px;
 }
 
+body{
+  background-color: #eee;
+}
+
 button{
   cursor:pointer;
   outline:none;
@@ -34,7 +38,7 @@ p{
 
 .nav{
   width:100%;
-  min-height: 10vh;
+  min-height: 9vh;
   padding:15px;
   display:flex;
   justify-content: space-between;
@@ -108,38 +112,121 @@ p{
 }
 
 .post-content{
-  width:30%;
+  width:700px;
   height:150px;
   border: 2px solid #ACACAC;
-  /* border-radius: 10px; */
   margin-bottom: 20px;
   padding:10px;
-  resize: none; 
+  resize: none;
   border:none;
   border-right:2px solid #181F1F;
   border-bottom:2px solid #181F1F;
-
+  outline: none;
+  font-size: 2rem;
+  background-color: inherit;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 
 .publish{
-  padding: 15px 25px;
+  padding: 20px 45px;
   border:none;
   border-right:2px solid #181F1F;
   border-bottom:2px solid #181F1F;
   background-color: #fff;
   transition: .2s;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  font-size: 2rem;
+  background-color: inherit;
 }
 
 .publish:hover{
   box-shadow: 10px 10px 5px #181F1F;
-  margin-bottom:5px
+}
+
+.post-link{
+  text-decoration: none;
+  color:#000;
 }
 
 .post{
-  width:30%;
+  width:700px;
   margin:0 auto;
+  padding:20px;
+  border-right:2px solid #181F1F;
+  border-bottom:2px solid #181F1F;
+  margin-bottom:100px;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.post-author{
+  font-size: 2.2rem;
+  color:#222;
+  margin-bottom: 15px;
+}
+
+.post-author span{
   padding:10px;
-  border:2px solid black;
-  margin-bottom:15px;
+  border-bottom: 2px solid #000;
+}
+
+.post-text{
+  font-size:2.3rem;
+  padding:10px;
+  margin-bottom: 25px;
+}
+
+.post-next{
+  display: flex;
+  align-items: center;
+  padding:10px;
+}
+
+.arrow{
+  margin-left: 25px;
+}
+
+.comments-count{
+  padding: 10px;
+  font-size: 1.6rem;
+}
+
+.users-aside{
+  position: fixed;
+  margin-top:10vh;
+  top:0;
+  right:0;
+  width:250px;
+  height: 100%;
+  overflow-y: scroll;
+  border-left: 2px solid black;
+  padding:10px;
+}
+
+.users-aside-title{
+  font-size: 1.9rem;
+  margin-bottom: 10px;
+}
+
+.user-aside{
+  font-size: 1.6rem;
+  color:#444;
+  margin-bottom: 10px;
+  cursor:default;
+}
+
+.user-aside:last-child{
+  margin-bottom: 0;
+}
+
+.post-page{
+  margin-top:9vh;
+  font-size: 10rem;
 }
